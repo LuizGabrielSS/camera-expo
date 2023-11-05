@@ -41,7 +41,7 @@ export default function DialogFunction({Fechar=true,FecharDialog={},ConfirmarDia
                                         variant="outline"
                                         action="positive"
                                         onPress={() => {
-                                            FecharDialog()
+                                            ConfirmarDialog()
                                         }}
                                         >
                                             <ButtonText>OK</ButtonText>
